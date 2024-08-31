@@ -5,7 +5,11 @@ st.title("This is the Data Page")
 
 @st.cache_data(persist=True)
 def load_data():
-    data = pd.read_csv('New_Test_data.csv')
+    data = pd.read_csv('train.csv')
     return data
 
-st.dataframe(load_data())
+st.dataframe(load_data(10))
+
+st.write("### Summary statistics")
+st.write(load_data.describe())
+
