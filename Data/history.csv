@@ -1,0 +1,6 @@
+gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Prediction Time,Model Used
+Male,0,Yes,Yes,10,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Electronic check,25,50,2024-09-04,Random Forest
+Male,0,Yes,Yes,5,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Electronic check,25,100,2024-09-04,Random Forest
+Male,0,Yes,Yes,5,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Electronic check,25,50,2024-09-04,Random Forest
+Male,0,Yes,Yes,0,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Electronic check,18,18,2024-09-04,Random Forest
+Male,0,Yes,Yes,0,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Electronic check,18,18,2024-09-04,Support Vector Classifier
