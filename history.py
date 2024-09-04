@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(
-    page_title="Prediction History",
-    page_icon=":history:",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+# st.set_page_config(
+    # page_title="Prediction History",
+    # page_icon=":history:",
+    # layout="wide",
+    # initial_sidebar_state="expanded"
+# )
 
 # st.header("Prediction History")
 # if "history"  in st.session_state and not st.session_state.history.empty:

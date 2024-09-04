@@ -7,12 +7,12 @@ import numpy as np
 import os
 import datetime
 
-st.set_page_config(
-    page_title="Predictions",
-    page_icon=":siren:",
-    layout="wide",
-    initial_sidebar_state="expanded"    
-)
+# st.set_page_config(
+#     page_title="Predictions",
+#     page_icon=":siren:",
+#     layout="wide",
+#     initial_sidebar_state="expanded"    
+# )
 
 st.title("Make Predictions")
 st.subheader("Decisions with data-driven insights")
