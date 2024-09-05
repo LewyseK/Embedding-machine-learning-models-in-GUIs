@@ -41,7 +41,22 @@ def main():
     else:
         Login.show_login()
 
-        st.markdown("Customer Churn Prediction App")
+        # st.markdown("Customer Churn Prediction App")
+        # Create a new column
+        
+
+    # Display the image in the new column
+        # st.image("./Images/Tel.webp")
+        Bg_image = '''
+        <style>
+        .stApp {
+        background-image: url("./Images/Tel.webp");
+        background-size: contain;
+        background-position: center;
+        }
+        </style>
+        '''
+        st.markdown(Bg_image, unsafe_allow_html=True)
 # st.set_page_config(
     # page_title="Classification App",
     # page_icon=":trendline:",
